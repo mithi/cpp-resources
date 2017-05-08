@@ -1,4 +1,4 @@
-# My Favorites Learning Resources
+# My Favorites Learning Resources For Beginners
 
 1. **A Transition Guide from Python 2.x to C++**
 - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
@@ -12,7 +12,7 @@
 
 ---
 
-# Other Learning Resources that are awesome too.
+# Other Learning Resources
 
 1. **Learning C++ Best Practices from Jason Turner (NOT FREE)**
 - http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate
@@ -49,6 +49,9 @@
 
 **The exceptional beauty of Doom 3s source code**
 - http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code
+
+**Doom3 source code review**
+- http://fabiensanglard.net/doom3/index.php
 
 **About using `const`**
 - http://www.gotw.ca/gotw/081.htm
