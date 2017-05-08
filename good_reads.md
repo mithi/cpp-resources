@@ -33,6 +33,9 @@
 
 7. **Udacity's C++ for programmers course (NOT FREE, BETA)**
 
+8. **learn cpp dot com**
+- http://www.learncpp.com/
+
 ---
 
 # Style Standards
