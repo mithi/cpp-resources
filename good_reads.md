@@ -8,27 +8,35 @@
 3. **Top 10 Things I Wish I Had Known When Learning C++: Tips for Absolute Beginners** (6 minutes)
 - https://www.youtube.com/watch?v=Vy3DvF8nibA
 
+---
 
-### Learning Resources - Other references that are awesome too.
+#Learning Resources - Other references that are awesome too.
 **Learning C++ Best Practices from Jason Turner (NOT FREE)**
 - http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate
+
 
 **A brief introduction to C++ for C and Python programmers**
 - C - http://users.aims.ac.za/~nneoma/cpptut/cpptut.html
 - Python - http://users.aims.ac.za/~nneoma/cpp4py/cpptut.html
 
+
 **Modern C++ Programming with Test-Driven Development**
 
+
 **Effective C++**
+
 
 **Learn C++ in one Video by Derek Banas (1 hour)**
 - https://www.youtube.com/watch?v=Rub-JsjMhWY
 
+
 **C++ from UDEMY courses (NOT FREE)**
 - https://www.udemy.com/courses/search/?ref=home&src=ukw&q=c%2B%2B
 
+
 **Udacity's C++ for programmers course (NOT FREE, BETA)**
 
+---
 
 # Style standards
 
@@ -38,6 +46,7 @@ https://google.github.io/styleguide/cppguide.html
 2. **C++ Core Guidelines**
 - https://github.com/isocpp/CppCoreGuidelines
 
+---
 
 # Articles
 
