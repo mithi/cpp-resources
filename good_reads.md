@@ -1,4 +1,5 @@
 # Learning Resources - My Favorites
+
 1. **A Transition Guide from Python 2.x to C++**
 - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
 
@@ -10,31 +11,26 @@
 
 ---
 
-# Learning Resources - Other references that are awesome too.
-**Learning C++ Best Practices from Jason Turner (NOT FREE)**
+# Other  Learning Resources that are awesome too.
+
+1. **Learning C++ Best Practices from Jason Turner (NOT FREE)**
 - http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate
 
-
-**A brief introduction to C++ for C and Python programmers**
+2. **A brief introduction to C++ for C and Python programmers**
 - C - http://users.aims.ac.za/~nneoma/cpptut/cpptut.html
 - Python - http://users.aims.ac.za/~nneoma/cpp4py/cpptut.html
 
+3. **Modern C++ Programming with Test-Driven Development (NOT FREE)**
 
-**Modern C++ Programming with Test-Driven Development**
+4. **Effective C++ (NOT FREE)**
 
-
-**Effective C++**
-
-
-**Learn C++ in one Video by Derek Banas (1 hour)**
+5. **Learn C++ in one Video by Derek Banas (1 hour)**
 - https://www.youtube.com/watch?v=Rub-JsjMhWY
 
-
-**C++ from UDEMY courses (NOT FREE)**
+6. **C++ from UDEMY courses (NOT FREE)**
 - https://www.udemy.com/courses/search/?ref=home&src=ukw&q=c%2B%2B
 
-
-**Udacity's C++ for programmers course (NOT FREE, BETA)**
+7. **Udacity's C++ for programmers course (NOT FREE, BETA)**
 
 ---
 
