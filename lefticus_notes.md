@@ -1,5 +1,4 @@
-# NOTES FROM
-[CPP BEST PRACTICES -LEFTICUS](https://lefticus.gitbooks.io/cpp-best-practices/content/03-Style.html)
+# NOTES FROM [CPP BEST PRACTICES -LEFTICUS](https://lefticus.gitbooks.io/cpp-best-practices/content/03-Style.html)
 
 
 # STYLE SUGGESTIONS
