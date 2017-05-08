@@ -10,7 +10,7 @@
 
 ---
 
-#Learning Resources - Other references that are awesome too.
+# Learning Resources - Other references that are awesome too.
 **Learning C++ Best Practices from Jason Turner (NOT FREE)**
 - http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate
 
