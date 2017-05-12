@@ -1,13 +1,16 @@
 # My Favorites Learning Resources For Beginners
 
-1. **A Transition Guide from Python 2.x to C++**
+1. **A Tour of C++** 
+- Bjarne Stroustrup, 2013
+
+2. **A Transition Guide from Python 2.x to C++**
 - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
 
-2. **Sololearn**
+3. **Sololearn**
 - https://www.sololearn.com/Play/CPlusPlus
 - https://code.sololearn.com/#cpp
 
-3. **Top 10 Things I Wish I Had Known When Learning C++: Tips for Absolute Beginners** (6 minutes)
+4. **Top 10 Things I Wish I Had Known When Learning C++: Tips for Absolute Beginners** (6 minutes)
 - https://www.youtube.com/watch?v=Vy3DvF8nibA
 
 ---
@@ -35,6 +38,9 @@
 
 8. **learn cpp dot com**
 - http://www.learncpp.com/
+
+9. **CPP tutorials**
+- http://www.tenouk.com/cncplusplustutorials.html
 
 ---
 
