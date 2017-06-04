@@ -1,7 +1,7 @@
 # My Favorites Learning Resources For Beginners
 
-1. **A Tour of C++** 
-- Bjarne Stroustrup, 2013
+1. **Learning Lad: Learn C++ Playlist**
+- https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C
 
 2. **A Transition Guide from Python 2.x to C++**
 - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
@@ -10,37 +10,40 @@
 - https://www.sololearn.com/Play/CPlusPlus
 - https://code.sololearn.com/#cpp
 
-4. **Top 10 Things I Wish I Had Known When Learning C++: Tips for Absolute Beginners** (6 minutes)
-- https://www.youtube.com/watch?v=Vy3DvF8nibA
+
 
 ---
 
 # Other Learning Resources
 
-1. **Learning C++ Best Practices from Jason Turner (NOT FREE)**
+1. **Effective C++ by Scott Meyers** :dollar:
+
+2. **A Tour of C++** :dollar:
+
+3. **Learning C++ Best Practices from Jason Turner** :dollar:
 - http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate
 
-2. **A brief introduction to C++ for C and Python programmers**
+4. **A brief introduction to C++ for C and Python programmers**
 - C - http://users.aims.ac.za/~nneoma/cpptut/cpptut.html
 - Python - http://users.aims.ac.za/~nneoma/cpp4py/cpptut.html
 
-3. **Modern C++ Programming with Test-Driven Development (NOT FREE)**
+5. **Modern C++ Programming with Test-Driven Development** :dollar:
 
-4. **Effective C++ (NOT FREE)**
+6. **CPP tutorials**
+- http://www.tenouk.com/cncplusplustutorials.html
 
-5. **Learn C++ in one Video by Derek Banas (1 hour)**
+7. **Learn C++ in one Video by Derek Banas (1 hour)**
 - https://www.youtube.com/watch?v=Rub-JsjMhWY
 
-6. **C++ from UDEMY courses (NOT FREE)**
-- https://www.udemy.com/courses/search/?ref=home&src=ukw&q=c%2B%2B
+8. **C++ from UDEMY courses** 
+- https://www.udemy.com/courses/search/?ref=home&src=ukw&q=c%2B%2B&price=price-free
 
-7. **Udacity's C++ for programmers course (NOT FREE, BETA)**
+9. **Udacity's C++ for programmers course (BETA)** :dollar:
 
-8. **learn cpp dot com**
+10. **learn cpp dot com**
 - http://www.learncpp.com/
 
-9. **CPP tutorials**
-- http://www.tenouk.com/cncplusplustutorials.html
+11. **Hands-on C++ by A.D Marshall**
 
 ---
 
@@ -54,7 +57,18 @@
 
 ---
 
-# Articles
+# Videos
+
+**Top 10 Things I Wish I Had Known When Learning C++: Tips for Absolute Beginners** (6 minutes)
+- https://www.youtube.com/watch?v=Vy3DvF8nibA
+
+**CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"**
+- https://www.youtube.com/watch?v=xnqTKD8uD64
+
+**C++ Seasoning**
+- https://www.youtube.com/watch?v=qH6sSOr-yk8&
+
+# Articles 
 
 **The exceptional beauty of Doom 3s source code**
 - http://kotaku.com/5975610/the-exceptional-beauty-of-doom-3s-source-code
