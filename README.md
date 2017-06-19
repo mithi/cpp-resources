@@ -45,3 +45,6 @@ or plan to study in the future as I improve my skills and become a better C++ de
 - http://www.learncpp.com/
 
 11. **Hands-on C++ by A.D Marshall**
+
+12. **CPP Primer**
+- https://github.com/Mooophy/Cpp-Primer
