@@ -3,7 +3,7 @@ or plan to study in the future as I improve my skills and become a better C++ de
 
 # My Favorites Learning Resources For Beginners
 
-1.[_Learning Lad: Learn C++_](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
+1. [_Learning Lad: Learn C++_](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
 
 2. _A Transition Guide from Python 2.x to C++_
 - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
