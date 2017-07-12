@@ -40,4 +40,4 @@ or plan to study in the future as I improve my skills and become a better C++ de
 
 12. C++ Primer Plus, Stephen Prata
 
-13. [PluralSight C++ :dollar:](https://www.pluralsight.com/paths/c-plus-plus)
+13. [C++, PluralSight :dollar:](https://www.pluralsight.com/paths/c-plus-plus)
