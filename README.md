@@ -18,9 +18,9 @@ or plan to study in the future as I improve my skills and become a better C++ de
 
 2. A Tour of C++, Bjarne Stroustrup :dollar:
 
-3. [Learning C++ Best Practices from Jason Turner :dollar:](http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate)
+3. [Learning C++ Best Practices, Jason Turner :dollar:](http://shop.oreilly.com/product/0636920049814.do?sortby=publicationDate)
 
-4. A brief introduction to C++ for C and Python programmers,
+4. A brief introduction to C++ for C and Python programmers
 - [C](http://users.aims.ac.za/~nneoma/cpptut/cpptut.html)
 - [Python](http://users.aims.ac.za/~nneoma/cpp4py/cpptut.html)
 
