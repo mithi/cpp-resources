@@ -24,6 +24,10 @@ or plan to study in the future as I improve my skills and become a better C++ de
 - [Interview Questions from Interview Cake](https://www.interviewcake.com/cpp-interview-questions)
 
 
+# Stack Overflow's Answer
+- [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+> This question attempts to collect the few pearls among the dozens of bad C++ books that are published every year. Unlike many other programming languages, which are often picked up on the go from tutorials found on the Internet, few are able to quickly pick up C++ without studying a well-written C++ book. It is way too big and complex for doing this. In fact, it is so big and complex, that there are very many very bad C++ books out there. And we are not talking about bad style, but things like sporting glaringly obvious factual errors and promoting abysmally bad programming styles.
+
 # :link: If you wish to learn more about cmake here's a list of links worth checking out.
 
 - [CMake by Example](https://mirkokiefer.com/cmake-by-example-f95eb47d45b1)
