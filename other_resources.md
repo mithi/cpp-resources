@@ -1,3 +1,17 @@
+# :link: If you wish to learn more about cmake here's a list of links worth checking out.
+
+- [CMake by Example](https://mirkokiefer.com/cmake-by-example-f95eb47d45b1)
+- [Let's Start with CMake](https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/chap1/chap1.html)
+- [Official CMake Guide](https://cmake.org/cmake-tutorial/)
+- [Introduction to CMake](http://derekmolloy.ie/hello-world-introductions-to-cmake/)
+
+# C++ Interview Questions
+
+- [Andreis Interview Repository](https://tests4geeks.com/cpp-interview-questions/)
+- [Test4Geeks](https://tests4geeks.com/cpp-interview-questions/)
+- [Interview Questions from TopTal](https://www.toptal.com/c-plus-plus/interview-questions)
+- [Interview Questions from Interview Cake](https://www.interviewcake.com/cpp-interview-questions)
+
 # Other Interview Questions
 - [Interview Questions from Tutorials Point](https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm)
 - [Interview Questions from Javatpoint](https://www.toptal.com/c-plus-plus/interview-questions)
