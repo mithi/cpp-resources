@@ -6,7 +6,7 @@ or plan to study in the future as I improve my skills and become a better C++ de
 - [Crash Course by Nicolas P Rougie](https://www.labri.fr/perso/nrougier/teaching/c++-crash-course/index.html)
 - [Learn C++ From Programiz](https://www.programiz.com/cpp-programming/return-reference)
 - [C++ Notes by Fredosaurus](http://www.fredosaurus.com/notes-cpp/index.html)
-  - [Expanding an Arrat](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
+  - [Expanding an Array](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
   
 # Learning Resources For Beginners
 
