@@ -6,6 +6,7 @@
 - [Out of My Laboratory: C++ Basic Skills: List](https://www.youtube.com/watch?v=lahmSv8ux4A&index=54&list=PL68244A805BD16617)
 - [What really is Deque in STL::C++](https://stackoverflow.com/questions/6292332/what-really-is-a-deque-in-stl)
 - [How deque is implemented in C++](http://cpp-tip-of-the-day.blogspot.com/2013/11/how-is-stddeque-implemented.html)
+- [When to use Forward List](https://stackoverflow.com/questions/25472527/when-to-use-c-forward-list)
 
 # Others
 - [Bo Quian: LValue vs RValue](https://www.youtube.com/watch?v=UTUdhjzws5g&list=PLE28375D4AC946CC3&index=20)
