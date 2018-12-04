@@ -11,7 +11,7 @@ or plan to study in the future as I improve my skills and become a better C++ de
 
 - [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
 - [Learning Lad: Learn C++](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
-- [A Transition Guide from Python 2.x to C++](https://github.com/mithi/cpp-resources/blob/master/python2cpp.pdf)
+- [A Transition Guide from Python 2.x to C++](https://github.com/mithi/cpp-resources/blob/master/pdf/book-0-python-to-cpp.pdf)
   - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
 - [Sololearn](https://www.sololearn.com/Play/CPlusPlus)
 
