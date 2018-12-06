@@ -8,12 +8,11 @@ or plan to study in the future as I improve my skills and become a better C++ de
 - [C++ Notes by Fredosaurus](http://www.fredosaurus.com/notes-cpp/index.html), [Expanding an Array](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
   
 # Learning Resources For Beginners
-
-- [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
-- [Learning Lad: Learn C++](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
+- [Sololearn](https://www.sololearn.com/Play/CPlusPlus)
 - [A Transition Guide from Python 2.x to C++](https://github.com/mithi/cpp-resources/blob/master/pdf/book-0-python-to-cpp.pdf)
   - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
-- [Sololearn](https://www.sololearn.com/Play/CPlusPlus)
+- [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
+- [Learning Lad: Learn C++](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
 
 # Stack Overflow's Answer
 - [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
