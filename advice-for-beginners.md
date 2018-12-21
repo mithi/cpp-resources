@@ -1,9 +1,10 @@
-### Here's an simple example based on what you're trying to do: 
+### Here's a simple example based on what you're trying to do: 
 - https://gist.github.com/mithi/1e94d4092aea217e3defa5d89ced27a5
 
 ### You can test how it works here: 
 - https://www.onlinegdb.com/online_c++_compiler
 
+### THE CODE
 ```cpp
 #include <iostream>
 #include <sstream>
@@ -62,7 +63,7 @@ iteration:10
 5. You might also be interested in learning about rubber ducky programming: https://rubberduckdebugging.com/
 6. You should practice how to ask questions the smart way. This is a must read. 
 - http://www.catb.org/esr/faqs/smart-questions.html
-7. Readability matters. For a start, you should indent your code properly so that it's easier to read and debug (#1). I recommend to use 2 spaces for indentation and that the first curly brace should be on the the same line of the method. Also whatever code style you adopt it is important to be consistent with your code style. You can read more here:
--  https://blog.programminghub.io/blog/2017/06/07/importance-indentation-programming/ . 
-You can also look at my code for an example of proper indentation:
-- https://github.com/mithi/highway-path-planning/blob/master/BOSCH-CHALLENGE/src/vehicle.cpp
+7. Readability matters. For a start, you should indent your code properly so that it's easier to read and debug. I recommend to use two spaces for indentation and that the first curly brace should be on the the same line of the method. Also whatever code style you adopt it is important to be consistent with your code style. You can read more here:
+  -  https://blog.programminghub.io/blog/2017/06/07/importance-indentation-programming/ . 
+  You can also look at my code for an example of proper indentation:
+    - https://github.com/mithi/highway-path-planning/blob/master/BOSCH-CHALLENGE/src/vehicle.cpp
