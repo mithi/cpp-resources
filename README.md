@@ -1,5 +1,4 @@
-This is a collection of notes and resources that I have studied, am currently studying
-or plan to study in the future as I improve my skills and become a better C++ developer.
+This is a collection of notes and resources related to C++.
 
 # C++ Crash Course 
 - [Gibs Jose's C++ Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet)
