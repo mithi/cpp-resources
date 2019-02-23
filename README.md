@@ -12,6 +12,12 @@ This is a collection of notes and resources related to C++.
   - Michael H. Goldwasser David Letscher, Saint Louis University, August 2011 revision
 - [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
 - [Learning Lad: Learn C++](https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C)
+- [C++ For Programmers(Udacity)](https://www.udacity.com/course/c-for-programmers--ud210)
+- [Introduction to C++(edX)](https://www.edx.org/course/introduction-c-plus-plus-3)
+- [Intermediate C++(edX)](https://www.edx.org/course/intermediate-c-plus-plus-3)
+- [Advanced C++(edX)](https://www.edx.org/course/advanced-c-plus-plus-3)
+- [C++ For C Programmers, Part A(Cousera)](https://www.coursera.org/learn/c-plus-plus-a)
+- [C++ For C Programmers, Part B(Cousera)](https://www.coursera.org/learn/c-plus-plus-b)
 
 # Stack Overflow's Answer
 - [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
