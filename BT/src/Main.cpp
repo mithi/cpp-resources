@@ -5,14 +5,12 @@
 
 using namespace std;
 
-void print_vector(vector<int> &v) {
-    for (int i = 0; i < v.size(); i++){
-        cout << v[i] << ' ';
-    }
-    cout << endl;
-}
-
 int main(int argc, char *argv[]){
+
+    vector<int> answer1 = {1, 2, 3, 4, 5, 6, 7, 8, 10, 11};
+    vector<int> answer2 = {0, 4, 5, 6, 7, 8, 9, 10, 11, 13};
+    vector<int> answer3 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+    vector<int> answer4 = {0, 1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 13};
 
     int values[] = {8, 3, 1, 7, 2, 5, 10, 6, 4, 11};
     BinaryTree BT;
@@ -21,17 +19,17 @@ int main(int argc, char *argv[]){
         BT.insert(values[i]);
     }
 
-    for(int i = 0; i < 10; i++) {
+
+    for(int i = 0; i < sizeof(values) / sizeof(values[0]); i++) {
         assert(BT.contains(values[i]));
     }
 
     assert(BT.minimum()==1);
     assert(BT.contains(0)==false);
     assert(BT.contains(12)==false);
+    assert(BT.contains(9)==false);
 
-    vector<int> path = BT.inorder();
-    print_vector(path);
-    // 1 2 3 4 5 6 7 8 10 11
+    assert(BT.inorder()==answer1);
 
     BT.remove_minimum();
     BT.remove_minimum();
@@ -41,22 +39,20 @@ int main(int argc, char *argv[]){
     BT.insert(13);
     BT.insert(9);
 
-    vector<int> path2 = BT.inorder();
-    print_vector(path2);
-    // 0 4 5 6 7 8 9 10 11 13
+    assert(BT.inorder()==answer2);
 
     BT.insert(2);
     BT.insert(1);
     BT.insert(3);
+    BT.insert(12);
 
-    vector<int> path3 = BT.inorder();
-    print_vector(path3);
-    // 0 1 2 3 4 5 6 7 8 9 10 11 13
+    assert(BT.inorder()==answer3);
 
-    //BT.remove(7);
-    //vector<int> path4 = BT.inorder();
-    //print_vector(path4);
+    BT.remove(7);
+    BT.remove(10);
+    assert(BT.inorder()==answer4);
 
+    cout << "No problems encountered. :)" << endl;
 
     return 0;
 }
