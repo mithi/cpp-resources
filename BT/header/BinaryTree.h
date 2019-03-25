@@ -19,7 +19,6 @@ class BinaryTree{
         Node* _root;
         BinaryTree();
         ~BinaryTree();
-        int minimum();
         bool contains(int value);
         void insert(int value);
         void remove(int value);

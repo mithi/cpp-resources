@@ -11,6 +11,29 @@ BinaryTree::BinaryTree() {
 
 BinaryTree::~BinaryTree() {}
 
+void BinaryTree::insert(int value) {
+    _root = _rinsert(_root, value);
+}
+
+void BinaryTree::remove(int value) {
+    _root = _rremove(_root, value);
+}
+
+vector<int> BinaryTree::inorder(){
+    vector<int> v;
+    _rinorder(_root, v);
+    return v;
+}
+
+void BinaryTree::remove_minimum() {
+    if(_root == NULL) { return; }
+    _root = _rremovemin(_root);
+}
+
+bool BinaryTree::contains(int value) {
+    return _rcontains(_root, value);
+}
+
 Node* BinaryTree::_rinsert( Node* current, int value) {
 
     if (current == NULL) {
@@ -26,37 +49,13 @@ Node* BinaryTree::_rinsert( Node* current, int value) {
     return current;
 }
 
-void BinaryTree::insert(int value) {
-    _root = _rinsert(_root, value);
-}
-
 Node* BinaryTree::_rminimum(Node* current){
+    assert(current != NULL);
 
     if (current->left == NULL) {
         return current;
     }
     return _rminimum(current->left);
-}
-
-int BinaryTree::minimum(){
-    Node* minimum_node = _rminimum(_root);
-    return minimum_node->data;
-}
-
-bool BinaryTree::_rcontains(Node* current, int value){
-    if (current == NULL) { return false; }
-
-    if (value < current->data) {
-        return _rcontains(current->left, value);
-    } else if (value > current->data) {
-        return _rcontains(current->right, value);
-    } else {
-        return true;
-    }
-}
-
-bool BinaryTree::contains(int value) {
-    return _rcontains(_root, value);
 }
 
 Node* BinaryTree::_rremovemin(Node* current) {
@@ -71,10 +70,6 @@ Node* BinaryTree::_rremovemin(Node* current) {
     return current;
 }
 
-void BinaryTree::remove_minimum() {
-    if(_root == NULL) { return; }
-    _root = _rremovemin(_root);
-}
 
 Node* BinaryTree::_rremove(Node* current, int value) {
     if (current == NULL) { return NULL; }
@@ -111,12 +106,7 @@ Node* BinaryTree::_rremove(Node* current, int value) {
         current->right = _rremovemin(current->right);
         current->data = data;
     }
-
     return current;
-}
-
-void BinaryTree::remove(int value) {
-    _root = _rremove(_root, value);
 }
 
 void BinaryTree::_rinorder(Node* current, vector<int>& v){
@@ -125,14 +115,16 @@ void BinaryTree::_rinorder(Node* current, vector<int>& v){
     _rinorder(current->left, v);
     v.push_back(current->data);
     _rinorder(current->right, v);
-
 }
 
-vector<int> BinaryTree::inorder(){
-    vector<int> v;
-    _rinorder(_root, v);
-    return v;
+bool BinaryTree::_rcontains(Node* current, int value){
+    if (current == NULL) { return false; }
+
+    if (value < current->data) {
+        return _rcontains(current->left, value);
+    } else if (value > current->data) {
+        return _rcontains(current->right, value);
+    } else {
+        return true;
+    }
 }
-
-
-
