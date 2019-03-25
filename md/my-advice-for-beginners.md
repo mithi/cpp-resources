@@ -1,4 +1,4 @@
-### [Here's a simple example based on what you're trying to do])https://gist.github.com/mithi/1e94d4092aea217e3defa5d89ced27a5)
+### [Here's a simple example based on what you're trying to do](https://gist.github.com/mithi/1e94d4092aea217e3defa5d89ced27a5)
 
 ### [You can test how it works here](https://www.onlinegdb.com/online_c++_compiler)
 
