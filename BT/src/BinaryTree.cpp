@@ -59,17 +59,21 @@ bool BinaryTree::contains(int value) {
     return _rcontains(_root, value);
 }
 
-void BinaryTree::_rremovemin(Node* current) {
+Node* BinaryTree::_rremovemin(Node* current) {
     if (current->left == NULL) {
-        delete current;
-        return;
+        Node* temp = current;
+        current = temp->right;
+        delete temp;
+        return current;
     }
 
-    _rremovemin(current->left);
+    current->left = _rremovemin(current->left);
+    return current;
 }
 
 void BinaryTree::remove_minimum() {
-    _rremovemin(_root);
+    if(_root == NULL) { return; }
+    _root = _rremovemin(_root);
 }
 
 Node* BinaryTree::_rremove(Node* current, int value) {

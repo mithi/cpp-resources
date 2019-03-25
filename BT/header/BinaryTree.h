@@ -13,7 +13,7 @@ class BinaryTree{
         bool _rcontains(Node* current, int value) ;
         Node* _rinsert(Node* current, int value);
         Node* _rremove(Node* current, int value);
-        void _rremovemin(Node* current);
+        Node* _rremovemin(Node* current);
         void _rinorder(Node* current, vector<int>& v);
     public:
         Node* _root;
