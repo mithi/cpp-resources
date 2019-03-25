@@ -58,3 +58,61 @@ bool BinaryTree::contains(int value) {
     return _rcontains(_root, value);
 }
 
+void BinaryTree::_rremovemin(Node* current) {
+    if (current->left == NULL) {
+        delete current;
+        return;
+    }
+
+    _rremovemin(current->left);
+}
+
+void BinaryTree::remove_minimum() {
+    _rremovemin(_root);
+}
+
+Node* BinaryTree::_rremove(Node* current, int value) {
+    if (current == NULL) { return NULL; }
+
+    if (value < current->data) {
+        current = _rremove(current->left, value);
+    } else if (value > current->data) {
+        current = _rremove(current->right, value);
+    } else {
+        // we've found the node which contains the value
+        // that we want to delete
+
+        // if this node has at most one child
+        // return that child to parent after deleting the node
+        if (current->left == NULL) {
+            Node* temp = current->right;
+            delete current;
+            return temp;
+        }
+
+        if (current->right == NULL) {
+            Node* temp = current->left;
+            delete current;
+            return temp;
+        }
+
+        // HIBBARDS DELETION
+        // replace the value of the node
+        // whose value we want to delete
+        // with the minimum value of its right subtree
+        // after this, delete the node which contains
+        // the minimum value on the said right subtree
+
+        int data = _rminimum(current->right)->data;
+        current->data = data;
+        _rremovemin(current->right);
+    }
+
+    return current;
+}
+
+void BinaryTree::remove(int value) {
+    _root = _rremove(_root, value);
+}
+
+

@@ -21,5 +21,17 @@ int main(int argc, char *argv[]){
     assert(BT.contains(10)==false);
     assert(BT.contains(12)==false);
 
+    BT.remove(8);
+    assert(BT.contains(8)==false);
+
+    BT.insert(8);
+    assert(BT.contains(8)==true);
+
+    BT.remove(6);
+    assert(BT.contains(6)==false);
+
+    BT.insert(6);
+    assert(BT.contains(6)==true);
+
     return 0;
 }

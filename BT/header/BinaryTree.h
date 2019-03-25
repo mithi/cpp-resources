@@ -9,7 +9,8 @@ class BinaryTree{
         Node* _rinsert(Node* current, int value);
         Node* _rminimum(Node* current);
         bool _rcontains(Node* current, int value);
-        //void _rdeletemin(Node* current);
+        void _rremovemin(Node* current);
+        Node* _rremove(Node* current, int value);
     public:
         Node* _root;
         BinaryTree();
@@ -17,12 +18,13 @@ class BinaryTree{
         void insert(int value);
         int minimum();
         bool contains(int value);
-        //void delete_minimum();
-        // delete
+        void remove(int value);
+        void remove_minimum();
         // preorder
         // inorder
         // postorder
         // levelorder
+
 };
 
 #endif
