@@ -1,5 +1,6 @@
 #include <cstddef>
 #include "BinaryTree.h"
+#include <vector>
 #include <iostream>
 
 using namespace std;
@@ -29,7 +30,7 @@ void BinaryTree::insert(int value) {
     _root = _rinsert(_root, value);
 }
 
-Node* BinaryTree::_rminimum(Node* current) {
+Node* BinaryTree::_rminimum(Node* current){
 
     if (current->left == NULL) {
         return current;
@@ -42,7 +43,7 @@ int BinaryTree::minimum(){
     return minimum_node->data;
 }
 
-bool BinaryTree::_rcontains(Node* current, int value) {
+bool BinaryTree::_rcontains(Node* current, int value){
     if (current == NULL) { return false; }
 
     if (value < current->data) {
@@ -114,5 +115,21 @@ Node* BinaryTree::_rremove(Node* current, int value) {
 void BinaryTree::remove(int value) {
     _root = _rremove(_root, value);
 }
+
+void BinaryTree::_rinorder(Node* current, vector<int>& v){
+    if (current == NULL) { return; }
+
+    _rinorder(current->left, v);
+    v.push_back(current->data);
+    _rinorder(current->right, v);
+
+}
+
+vector<int> BinaryTree::inorder(){
+    vector<int> v;
+    _rinorder(_root, v);
+    return v;
+}
+
 
 

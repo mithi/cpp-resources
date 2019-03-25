@@ -1,27 +1,31 @@
 #ifndef BINARYTREE_H_
 #define BINARYTREE_H_
 
+#include <vector>
 #include "Node.h"
+
+using namespace std;
 
 class BinaryTree{
 
     private:
-        Node* _rinsert(Node* current, int value);
         Node* _rminimum(Node* current);
-        bool _rcontains(Node* current, int value);
-        void _rremovemin(Node* current);
+        bool _rcontains(Node* current, int value) ;
+        Node* _rinsert(Node* current, int value);
         Node* _rremove(Node* current, int value);
+        void _rremovemin(Node* current);
+        void _rinorder(Node* current, vector<int>& v);
     public:
         Node* _root;
         BinaryTree();
         ~BinaryTree();
-        void insert(int value);
         int minimum();
         bool contains(int value);
+        void insert(int value);
         void remove(int value);
         void remove_minimum();
-        // preorder
-        // inorder
+        vector<int> inorder();
+
         // postorder
         // levelorder
 
