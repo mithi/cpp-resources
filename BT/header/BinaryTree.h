@@ -24,10 +24,11 @@ class BinaryTree{
         void remove(int value);
         void remove_minimum();
         vector<int> inorder();
-
+        // inorder
         // postorder
         // levelorder
-
+        // flat level order
+        // better deconstruction
 };
 
 #endif

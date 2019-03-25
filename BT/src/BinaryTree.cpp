@@ -15,6 +15,10 @@ void BinaryTree::insert(int value) {
     _root = _rinsert(_root, value);
 }
 
+bool BinaryTree::contains(int value) {
+    return _rcontains(_root, value);
+}
+
 void BinaryTree::remove(int value) {
     _root = _rremove(_root, value);
 }
@@ -28,10 +32,6 @@ vector<int> BinaryTree::inorder(){
 void BinaryTree::remove_minimum() {
     if(_root == NULL) { return; }
     _root = _rremovemin(_root);
-}
-
-bool BinaryTree::contains(int value) {
-    return _rcontains(_root, value);
 }
 
 Node* BinaryTree::_rinsert( Node* current, int value) {
@@ -69,7 +69,6 @@ Node* BinaryTree::_rremovemin(Node* current) {
     current->left = _rremovemin(current->left);
     return current;
 }
-
 
 Node* BinaryTree::_rremove(Node* current, int value) {
     if (current == NULL) { return NULL; }

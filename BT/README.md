@@ -1,4 +1,5 @@
-# Basic Binary Tree
+# Binary Tree
+- Simple `BinaryTree` operations and other related exercises
 
 # Implemented Operations
 
@@ -9,14 +10,11 @@
 - [x] inorder
 - [x] contains
 - [x] remove minimum
-- [] preorder
-- [] postorder
-- [] levelorder
-- [] flat levelorder
-- [] better deconstruction
-
-### `IterativeBinaryTree`
-### Other related exercises
+- [ ] preorder
+- [ ] postorder
+- [ ] levelorder
+- [ ] flat levelorder
+- [ ] better deconstruction
 
 # Run
 ```
