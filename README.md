@@ -16,6 +16,6 @@ A small collection of notes and resources related to basic C++.
 - [Learn C++ From Programiz](https://www.programiz.com/cpp-programming/return-reference)
 - [C++ Notes by Fredosaurus](http://www.fredosaurus.com/notes-cpp/index.html), [Expanding an Array](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
 - [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
-- More on **`md`** directory
+- See also **`./old./md/*`** directory
 
 
