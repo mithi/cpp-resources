@@ -80,9 +80,9 @@ Node* BinaryTree::_rremove(Node* current, int value) {
     if (current == NULL) { return NULL; }
 
     if (value < current->data) {
-        current = _rremove(current->left, value);
+        current->left = _rremove(current->left, value);
     } else if (value > current->data) {
-        current = _rremove(current->right, value);
+        current->right = _rremove(current->right, value);
     } else {
         // we've found the node which contains the value
         // that we want to delete
@@ -101,16 +101,15 @@ Node* BinaryTree::_rremove(Node* current, int value) {
             return temp;
         }
 
-        // HIBBARDS DELETION
+        // HIBBARD DELETION
         // replace the value of the node
         // whose value we want to delete
         // with the minimum value of its right subtree
         // after this, delete the node which contains
         // the minimum value on the said right subtree
-
         int data = _rminimum(current->right)->data;
+        current->right = _rremovemin(current->right);
         current->data = data;
-        _rremovemin(current->right);
     }
 
     return current;
