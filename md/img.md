@@ -1,0 +1,6 @@
+![](../img/pointers-1-drawing.png)
+![](../img/pointers-2.png)
+![](../img/pointers-3-heap.png)
+![](../img/pointers-4-function.png)
+![](../img/pointers-5-function-return.png)
+![](../img/pointers-6-heap-array.png)
