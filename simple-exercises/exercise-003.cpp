@@ -1,4 +1,3 @@
-//https://www.geeksforgeeks.org/construct-a-binary-tree-from-postorder-and-inorder/
 //Given inorder and postorder traversal of a tree, construct the binary tree.
 // You may assume that duplicates do not exist in the tree.
 
@@ -13,37 +12,39 @@
  */
 class Solution {
 public:
-    TreeNode* _buildtree(vector<int>& in_vector,
-                    vector<int>& post_vector,
-                    int in_start,
-                    int in_end,
-                    int* post_index) {
+    // end index is excluded in search
+    TreeNode* _buildtree(vector<int>& ivector, int istart, int iend,
+                         vector<int>& pvector, int pstart, int pend) {
 
-        if (in_start > in_end || post_index < 0) { return NULL; }
+        //         (left) (root) (right)
+        // iorder [3, 4, 6] 8 [9, 10, 11]
+        //        (left)    (right)    (root)
+        // porder [3, 6, 4] [9, 11, 10] 8
 
-        // create node
-        int value = post_vector[*post_index];
+        // We found nothing
+        if (istart>=iend || pstart>=pend) { return NULL; }
+
+        // Make node
+        int value = pvector[pend - 1];
         TreeNode* root = new TreeNode(value);
-        // decrement post_index each time a node is created
-        (*post_index)--;
 
-        // if node has no children, return it
-        if (in_start == in_end) {
-            cout << root->val << " ";
-            return root;
-        }
+        // Find where value is located in inorder vector
+        int i = search(ivector, istart, iend, value);
+        // find index separating left and right subtree
+        // of postorder vector i.e.
+        // m = start + (size of left subtree)
+        int m = pstart + (i - istart);
 
-        // in_index, where in the inorder vector the `value` is
-        int i = search(in_vector, in_start, in_end, value);
-
-        root->right = _buildtree(in_vector, post_vector, i + 1, in_end, post_index);
-        root->left = _buildtree(in_vector, post_vector, in_start, i - 1, post_index);
+        root->left = _buildtree(ivector, istart, i,
+                                pvector, pstart, m);
+        root->right = _buildtree(ivector, i + 1, iend,
+                                 pvector, m, pend - 1);
         return root;
     }
 
     // Assumes that value is in v & inbetween start and end
     int search(vector<int>& v, int start, int end, int value) {
-        for(int i=start; i<=end; i++) {
+        for(int i=start; i<end; i++) {
             if (v[i] == value) { return i; }
         }
         return -1; // did not find anything
@@ -51,7 +52,7 @@ public:
 
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         // assert postorder.size() == inorder.size()
-        int n = postorder.size() - 1;
-        return _buildtree(inorder, postorder, 0, n, &n);
+        int n = postorder.size();
+        return _buildtree(inorder, 0, n, postorder, 0, n);
     }
 };
