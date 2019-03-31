@@ -29,19 +29,17 @@ public:
         // Find where value is located in inorder vector
         int i = inordermap[value];
         // find index separating left and right subtree
-        // of postorder vector i.e.
+        // of preorder vector i.e.
         // m = start + (size of left subtree)
         int m = pstart + 1 + (i - istart);
 
-        root->left = _buildtree(inordermap, istart, i,
-                                pvector, pstart + 1, m);
-        root->right = _buildtree(inordermap, i + 1, iend,
-                                 pvector, m, pend);
+        root->left = _buildtree(inordermap, istart, i, pvector, pstart + 1, m);
+        root->right = _buildtree(inordermap, i + 1, iend, pvector, m, pend);
         return root;
     }
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        // assert postorder.size() == inorder.size()
+        // assert preorder.size() == inorder.size()
         int n = preorder.size();
         // map value to index of inorder vector
         unordered_map<int, int> inordermap;
