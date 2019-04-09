@@ -6,25 +6,25 @@
 // do binary
 class Solution {
 public:
-    double myPow(double x, int n) {
+    double rpow(double x, int n) {
         // Anything raised to zero is one
         // One raised to anything is one
-        if (n == 0 || x == 1.0) { return 1.0; };
+        if (n == 0.0 || x == 1.0) { return 1.0; };
 
         // To avoid recursive stackoverflows,
         // let's do this optimization
         // if n is a multiple of 2 ie n = 2*m then
-        // expoit exponentiation property:
+        // exploit exponentiation property:
         // x^(2*m) = (x^m)*(x^m) = (x*x)^m
-        // which is log(n)
+        // time complexity: log(n)
         if (n % 2 == 0) {
-            return myPow( x * x, n / 2);
+            return rpow( x * x, n / 2);
         }
 
         // example:  x^(-5) = 1 / (x^(5))
         if (n < 0) { return 1.0 / myPow(x, -n); }
 
         // example: x^5 = x * (x^4)
-        return x * myPow(x, n - 1);
+        return x * rpow(x, n - 1);
     }
 };
