@@ -9,7 +9,7 @@ public:
     double rpow(double x, int n) {
         // Anything raised to zero is one
         // One raised to anything is one
-        if (n == 0.0 || x == 1.0) { return 1.0; };
+        if (n == 0 || x == 1.0) { return 1.0; };
 
         // To avoid recursive stackoverflows,
         // let's do this optimization
@@ -22,7 +22,7 @@ public:
         }
 
         // example:  x^(-5) = 1 / (x^(5))
-        if (n < 0) { return 1.0 / myPow(x, -n); }
+        if (n < 0) { return 1.0 / rPow(x, -n); }
 
         // example: x^5 = x * (x^4)
         return x * rpow(x, n - 1);
