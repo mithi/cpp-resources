@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minimithi)
+
 A small collection of notes and resources related to basic C++.
 
 ### Stack Overflow's Answer
@@ -18,4 +20,4 @@ A small collection of notes and resources related to basic C++.
 - [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
 - See also: **`./old./md/`** directory
 
-
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/minimithi)
