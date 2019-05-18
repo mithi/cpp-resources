@@ -26,12 +26,10 @@ public:
         ListNode* x = l1;
         ListNode* y = l2;
         int carry = 0;
-        int p = x->val;
-        int q = y->val;
 
         while (1) {
-            p = x == NULL ? 0 : x->val;
-            q = y == NULL ? 0 : y->val;
+            int p = x == NULL ? 0 : x->val;
+            int q = y == NULL ? 0 : y->val;
 
             s->val = p + q + carry;
 
