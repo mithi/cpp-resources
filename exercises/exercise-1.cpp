@@ -15,8 +15,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
  */
 class Solution {
 public:
-
-
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         if (l1 == NULL) { return l2; }
         if (l2 == NULL) { return l1; }
@@ -30,7 +28,6 @@ public:
         while (1) {
             int p = x == NULL ? 0 : x->val;
             int q = y == NULL ? 0 : y->val;
-
             s->val = p + q + carry;
 
             if (s->val > 9) {
@@ -39,18 +36,15 @@ public:
             } else {
                 carry = 0;
             }
-
             x = x == NULL ? NULL : x->next;
             y = y == NULL ? NULL : y->next;
 
             if (x == NULL && y == NULL && carry == 0) {
                 break;
             }
-
             s->next = new ListNode(0);
             s = s->next;
         }
-
         return sum;
     }
 };
