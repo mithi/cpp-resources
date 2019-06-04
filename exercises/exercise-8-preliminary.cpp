@@ -36,13 +36,12 @@ Note:
  */
 class Solution {
 public:
-    void recurse(TreeNode* node, string current, string* smallest) {
+    void recurse(TreeNode* node, string a, string* smallest) {
         
         if(node == NULL) {
             return;
         }
         
-        string a = current.c_str();
         char n = node->val + 97;
         a += n; 
         
