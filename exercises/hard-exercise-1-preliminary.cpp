@@ -66,7 +66,7 @@ public:
             noderight = right + node->val;
         }
         
-        if(node->right != NULL && node->left !=NULL) {
+        if (node->right != NULL && node->left !=NULL) {
             bigpath = node->val + left + right;
         }
         
@@ -89,9 +89,8 @@ public:
         
         int unfinished = 0;
         int current = root->val;
-        
-        recurse(root, current, unfinished);
-        
+  
+        recurse(root, current, unfinished);      
         return current > unfinished ? current : unfinished;
     }
 };
