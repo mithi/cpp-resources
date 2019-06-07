@@ -47,3 +47,45 @@ public:
         return countNodes(root->left) + countNodes(root->right) + 1;   
     }
 };
+
+
+class Solution2 {
+public:
+    int countNodes(TreeNode* root) {
+        if (root == NULL) {
+            return 0;
+        }
+
+        int h_left = 0;
+        int h_right = 0;
+
+        TreeNode *left = root;
+        TreeNode *right = root;
+
+        while(left != NULL) {
+            h_left++;
+            left = left->left;
+        }
+
+        while(right != NULL) {
+            h_right++;
+            right = right->right;
+        }
+
+        if (h_left == h_right) {
+            return pow(2, h_left) - 1; 
+        }
+
+        return 1 + countNodes(root->left) + countNodes(root->right);
+    }
+};
+
+class Solution3 {
+public:
+    int countNodes(TreeNode* root) {
+        if (root == NULL) {
+            return 0;
+        }
+        return countNodes(root->left) + countNodes(root->right) + 1;   
+    }
+};
