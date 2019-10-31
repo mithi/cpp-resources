@@ -21,6 +21,7 @@ A small collection of notes and resources related to basic C++.
 - [Learn C++ From Programiz](https://www.programiz.com/cpp-programming/return-reference)
 - [C++ Notes by Fredosaurus](http://www.fredosaurus.com/notes-cpp/index.html), [Expanding an Array](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
 - [programminghelporg](https://www.youtube.com/watch?v=xfgcEjCd9as&list=PL318A5EB91569E29A)
+- [Videos by freecodecamp](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - See also: **`./old./md/`** directory
 
 # [🐳](https://mithi.github.io/deep-blueberry) [☕️](https://ko-fi.com/minimithi) [🧧](https://www.paypal.me/minimithi) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/mithi) 
